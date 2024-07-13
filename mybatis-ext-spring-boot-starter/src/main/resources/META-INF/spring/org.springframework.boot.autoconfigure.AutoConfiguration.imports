@@ -1,0 +1,2 @@
+com.opensef.mybatisext.spring.boot.autoconfigure.PluginAutoConfiguration
+com.opensef.mybatisext.spring.boot.autoconfigure.PageConfigAutoConfiguration

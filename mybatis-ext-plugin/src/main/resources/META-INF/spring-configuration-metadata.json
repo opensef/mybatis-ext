@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "name": "page.dialect",
+      "type": "com.opensef.mybatisext.page.dialect.DialectProperties",
+      "sourceType": "com.opensef.mybatisext.page.dialect.DialectProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "page.dialect.dynamic",
+      "type": "java.util.Map<java.lang.String,com.opensef.mybatisext.page.dialect.DialectProperties$DialectInfo>",
+      "sourceType": "com.opensef.mybatisext.page.dialect.DialectProperties"
+    },
+    {
+      "name": "page.dialect.name",
+      "type": "java.lang.String",
+      "description": "方言",
+      "sourceType": "com.opensef.mybatisext.page.dialect.DialectProperties"
+    }
+  ],
+  "hints": []
+}
