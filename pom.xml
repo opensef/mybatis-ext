@@ -9,9 +9,9 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
-    <name>venus-auth</name>
-    <description>venus-auth</description>
-    <url>https://github.com/opensef/venus-auth</url>
+    <name>mybatis-ext</name>
+    <description>mybatis-ext</description>
+    <url>https://github.com/opensef/mybatis-ext</url>
 
     <modules>
         <module>mybatis-ext-core</module>
