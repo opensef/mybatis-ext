@@ -118,7 +118,7 @@ public class EntityManager {
             fieldInfo.setTypeHandler(entityPropertyInfo.getTypeHandler());
             fieldInfo.setColumnName(entityPropertyInfo.getColumnName());
             fieldInfo.setIgnore(entityPropertyInfo.getIgnore());
-            // 默认设置诶false
+            // 默认设置为false
             fieldInfo.setIdField(false);
             fieldInfo.setLogicDelete(false);
             fieldInfo.setAutoFillLogicDelete(false);

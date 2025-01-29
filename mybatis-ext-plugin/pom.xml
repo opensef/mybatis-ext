@@ -6,10 +6,9 @@
     <parent>
         <groupId>com.opensef</groupId>
         <artifactId>mybatis-ext</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </parent>
 
-    <groupId>com.opensef</groupId>
     <artifactId>mybatis-ext-plugin</artifactId>
 
     <dependencies>

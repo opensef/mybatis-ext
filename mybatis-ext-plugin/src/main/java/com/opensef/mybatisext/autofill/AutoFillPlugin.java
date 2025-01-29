@@ -4,8 +4,8 @@ import com.opensef.mybatisext.annotation.TableId;
 import com.opensef.mybatisext.exception.MybatisExtException;
 import com.opensef.mybatisext.idhandler.*;
 import com.opensef.mybatisext.mapper.BaseMapperParamConstant;
-import com.opensef.mybatisext.util.MybatisExtUtil;
 import com.opensef.mybatisext.util.ExtTypeUtil;
+import com.opensef.mybatisext.util.MybatisExtUtil;
 import org.apache.ibatis.executor.Executor;
 import org.apache.ibatis.mapping.MappedStatement;
 import org.apache.ibatis.mapping.SqlCommandType;
@@ -13,7 +13,10 @@ import org.apache.ibatis.plugin.*;
 import org.apache.ibatis.reflection.MetaObject;
 import org.apache.ibatis.reflection.SystemMetaObject;
 
-import java.lang.reflect.*;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.lang.reflect.Parameter;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -280,9 +283,10 @@ public class AutoFillPlugin implements Interceptor {
             Object value = autoFillMap.get(field.getName());
             if (value != null) {
                 try {
-                    if (null == field.get(entity)) {
+                    field.set(entity, value);
+                    /*if (null == field.get(entity)) {
                         field.set(entity, value);
-                    }
+                    }*/
                 } catch (IllegalAccessException e) {
                     e.printStackTrace();
                 }
