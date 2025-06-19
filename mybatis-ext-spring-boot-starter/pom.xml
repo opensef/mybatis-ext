@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.opensef</groupId>
         <artifactId>mybatis-ext</artifactId>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </parent>
 
     <artifactId>mybatis-ext-spring-boot-starter</artifactId>
