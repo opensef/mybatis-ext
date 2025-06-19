@@ -11,6 +11,8 @@
 
     <artifactId>mybatis-ext-spring-boot-starter</artifactId>
 
+    <name>mybatis-ext-spring-boot-starter</name>
+
     <dependencies>
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>

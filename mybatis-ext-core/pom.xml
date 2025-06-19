@@ -11,6 +11,8 @@
 
     <artifactId>mybatis-ext-core</artifactId>
 
+    <name>mybatis-ext-core</name>
+
     <dependencies>
         <dependency>
             <groupId>org.mybatis</groupId>

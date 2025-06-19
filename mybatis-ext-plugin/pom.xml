@@ -11,6 +11,8 @@
 
     <artifactId>mybatis-ext-plugin</artifactId>
 
+    <name>mybatis-ext-plugin</name>
+
     <dependencies>
         <dependency>
             <groupId>com.opensef</groupId>
